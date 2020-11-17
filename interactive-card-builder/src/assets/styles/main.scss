@@ -1,0 +1,18 @@
+@import "./custom-bootstrap.scss";
+
+$theme-color: #8C1515;
+$backdrop:#6FDEF9;
+
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333;
+  margin-top: 60px;
+}
+
+
+.front-side {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
