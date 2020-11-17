@@ -440,7 +440,7 @@ export default {
     getData() {
       //const API = `http://localhost:8000/api/employee_information/`
       axios
-        .get("http://localhost:8000/api/employee_information/")
+        .get("http://127.0.0.1:8000/api/employee_information/")
         .then((res) => {
           let val = res.data;
           // let info = {
