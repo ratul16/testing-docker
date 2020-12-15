@@ -20,5 +20,6 @@ from .routers import router
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
+    path('api/v1/', include('api.urls')),
     # path('article', TemplateView.as_view(template_name='index.html'))
 ]
